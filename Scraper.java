@@ -25,5 +25,14 @@ O   O   N  NN  E      P      I  E     C      E
                 """ + RESET;
 
         System.out.println(banner);
+        System.out.println();
+    
+        //APP Description
+        System.out.println(WHITE + "This app helps you explore job opportunities." + RESET);
+        System.out.println(BLUE + "- " + WHITE + "Scrapes or loads postings from selected sources" + RESET);
+        System.out.println(BLUE + "- " + WHITE + "Lets you filter by role, location, and keywords" + RESET);
+        System.out.println(BLUE + "- " + WHITE + "Preps clean summaries you can compare quickly" + RESET);
+        System.out.println();
+        System.out.println(WHITE + "Tip: Keep your repo private and add your instructor as a collaborator." + RESET);
     }
 }
