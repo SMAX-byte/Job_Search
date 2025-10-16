@@ -16,8 +16,16 @@ img{ width: 300px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   margin-top: 15px;}
+body{
+  padding-bottom: 40px;
+}
 
 /* ----- Xavier (XULA) Theme ----- */
+.xula{
+  background-color: #000000; /* Black */
+  color: #FFD700; /* Gold */
+}
+
 /* ----- Dillard Theme ----- */
 /* ----- Standard Theme (Me + Other University) ----- */
 
