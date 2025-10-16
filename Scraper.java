@@ -9,10 +9,12 @@ class Scraper {
 
         // Banner with colors
         String banner = BLUE + """
-                 ___   _  _  _____     ___  ___  ___  ___  ___ 
-                | _ \\ | \\| ||_   _|   | _ \\| __|| __|| __|| _ \\
-                |  _/ | .` |  | |     |  _/| _| | _| | _| |   /
-                |_|   |_|\\_|  |_|     |_|  |___||_|  |___||_|_\\
+                
+ OOO    N   N  EEEEE  PPPP   I  EEEEE  CCCC  EEEEE
+O   O   NN  N  E      P   P  I  E     C      E
+O   O   N N N  EEEE   PPPP   I  EEEE  C      EEEE
+O   O   N  NN  E      P      I  E     C      E
+ OOO    N   N  EEEEE  P      I  EEEEE  CCCC  EEEEE
                 """ + RESET + WHITE + """
                       .-''''-.
                      / _  _  \\
