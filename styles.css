@@ -25,7 +25,23 @@ body{
   background-color: #000000; /* Black */
   color: #FFD700; /* Gold */
 }
+.xula p{
+  color: #FFFFFF; /* White */
+}
+.xula h1{
+  color :#006400;
+  text-shadow: 2px 2px 4px #000000; /* Black shadow */}
 
 /* ----- Dillard Theme ----- */
+.dillard{
+  background-color: #800000; /* Maroon */
+  color: #FFD700; /* Gold */
+}
+.dillard p{
+  color:#4169e1 ; /* White */
+}
+.dillard h1{
+  color: #c0c0c0; /* Yellow */
+  text-shadow: 2px 2px 4px #000000; /* Black shadow */}
 /* ----- Standard Theme (Me + Other University) ----- */
 
