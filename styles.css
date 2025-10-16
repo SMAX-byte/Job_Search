@@ -43,5 +43,54 @@ body{
 .dillard h1{
   color: #c0c0c0; /* Yellow */
   text-shadow: 2px 2px 4px #000000; /* Black shadow */}
-/* ----- Standard Theme (Me + Other University) ----- */
+/* ----- Standard Theme (Me + Morehouse College) ----- */
+.me {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.me h1 {
+  color: #222222;
+  letter-spacing: 1px;
+}
+
+.me p {
+  max-width: 700px;
+  text-align: justify;
+  color: #444444;
+}
+.morehouse{
+ background-color: #800000; 
+  color: #f9f9f9; 
+}
+
+.morehouse h1 {
+  color: #ffffff; /* white heading */
+}
+
+.morehouse p {
+  color: #ffffff;
+  max-width: 700px;
+  text-align: justify;
+}
+
+/* ----- Navigation Bar Styles ----- */
+nav {
+  background-color: #e0e0e0;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  margin: 0 15px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
 
