@@ -1,8 +1,21 @@
 /* ----- General Styles for All Pages ----- */
-body{}
-h1{}
-p{}
-img{}
+body{font-family: "Times New Roman", Times, serif;
+     margin: 0; 
+     padding: 0; 
+     background-color: #f9f9f9;}
+h1{font-size: 2.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;}
+p{font-size: 1.1em;           
+  width: 80%;
+  margin: 20px auto;
+  line-height: 1.6;}
+img{ width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 15px;}
 
 /* ----- Xavier (XULA) Theme ----- */
 /* ----- Dillard Theme ----- */
