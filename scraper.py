@@ -53,23 +53,23 @@ def scrape_indeed():
 
         job_cards = soup.find_all("div", class_="job_seen_beacon")
 
-    with open("indeed_jobs.csv", mode="w", newline="", encoding="utf-8") as file:
+        with open("indeed_jobs.csv", mode="w", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow(["Job Title", "Company", "Location", "Date Posted"])
 
-    for card in job_cards:
-        title_elem = card.find("h2", class_="jobTitle")
-        company_elem = card.find("span", class_="companyName")
-        location_elem = card.find("div", class_="companyLocation")
-        date_elem = card.find("span", class_="date")
+        for card in job_cards:
+            title_elem = card.find("h2", class_="jobTitle")
+            company_elem = card.find("span", class_="companyName")
+            location_elem = card.find("div", class_="companyLocation")
+            date_elem = card.find("span", class_="date")
 
-        title = title_elem.text.strip() if title_elem else "N/A"
-        company = company_elem.text.strip() if company_elem else "N/A"
-        location = location_elem.text.strip() if location_elem else "N/A"
-        date_posted = date_elem.text.strip() if date_elem else "N/A"
+            title = title_elem.text.strip() if title_elem else "N/A"
+            company = company_elem.text.strip() if company_elem else "N/A"
+            location = location_elem.text.strip() if location_elem else "N/A"
+            date_posted = date_elem.text.strip() if date_elem else "N/A"
 
         writer.writerow([title, company, location, date_posted])
 
-    print("✅ Job data saved to indeed_jobs.csv\n")
+        print("✅ Job data saved to indeed_jobs.csv\n")
     except Exception as e:
                 print("❌ Indeed scrape failed:", e)
